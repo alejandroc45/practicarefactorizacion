@@ -2,18 +2,18 @@ package PasosCP;
 
 import Datos.Datos_MiCuenta;
 import Localizadores.Localizadores_MiCuenta;
-import Localizadores.LocalizadoresPaginaInicio;
+import Localizadores.Localizadores_PaginaInicio;
 import Metodos.MetodosComunes;
 import org.openqa.selenium.WebDriver;
 
-public class PasosLoginEnTiendaVirtual {
+public class Pasos_LoginEnTiendaVirtual {
 
     private static MetodosComunes metodosComunes=new MetodosComunes();
     private Datos_MiCuenta datosMiCuenta=new Datos_MiCuenta();
     private Localizadores_MiCuenta localizadoresMiCuenta=new Localizadores_MiCuenta();
-    private LocalizadoresPaginaInicio localizadoresPaginaInicio=new LocalizadoresPaginaInicio();
+    private Localizadores_PaginaInicio localizadoresPaginaInicio=new Localizadores_PaginaInicio();
 
-    public PasosLoginEnTiendaVirtual(){
+    public Pasos_LoginEnTiendaVirtual(){
 
     }
 

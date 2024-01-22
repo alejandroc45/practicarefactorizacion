@@ -1,6 +1,6 @@
 package CP_TiendaVirtual;
 import Metodos.MetodosComunes;
-import PasosCP.PasosLoginEnTiendaVirtual;
+import PasosCP.Pasos_LoginEnTiendaVirtual;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,11 +14,11 @@ import io.github.bonigarcia.wdm.*;
  * cp funcional automatizado de login en tienda virtual con un usuario registrado
  *
  */
-public class LoginEnTiendaVirtual
+public class Login_EnTiendaVirtual
 {
     //Objetos
     private static WebDriver driver;
-    private PasosLoginEnTiendaVirtual pasosCP=new PasosLoginEnTiendaVirtual();
+    private Pasos_LoginEnTiendaVirtual pasosCP=new Pasos_LoginEnTiendaVirtual();
     private static MetodosComunes MC=new MetodosComunes();
 
 
